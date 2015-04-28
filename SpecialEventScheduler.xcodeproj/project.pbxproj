@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9262075A1A9EAF9200795085 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 926207591A9EAF9200795085 /* Schedule.m */; };
 		927F4F821A9E9D0200D574AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4F811A9E9D0200D574AC /* main.m */; };
 		927F4F851A9E9D0200D574AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4F841A9E9D0200D574AC /* AppDelegate.m */; };
-		927F4F881A9E9D0200D574AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4F871A9E9D0200D574AC /* ViewController.m */; };
 		927F4F8B1A9E9D0200D574AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927F4F891A9E9D0200D574AC /* Main.storyboard */; };
 		927F4F8D1A9E9D0200D574AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927F4F8C1A9E9D0200D574AC /* Images.xcassets */; };
 		927F4F901A9E9D0200D574AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927F4F8E1A9E9D0200D574AC /* LaunchScreen.xib */; };
 		927F4F9C1A9E9D0200D574AC /* SpecialEventSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4F9B1A9E9D0200D574AC /* SpecialEventSchedulerTests.m */; };
+		927F4FAD1A9E9F8100D574AC /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4FAC1A9E9F8100D574AC /* EventsTableViewController.m */; };
+		927F4FB01A9E9F9F00D574AC /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927F4FAF1A9E9F9F00D574AC /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		926207581A9EAF9200795085 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		926207591A9EAF9200795085 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
 		927F4F7C1A9E9D0200D574AC /* SpecialEventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecialEventScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927F4F801A9E9D0200D574AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927F4F811A9E9D0200D574AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		927F4F831A9E9D0200D574AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		927F4F841A9E9D0200D574AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		927F4F861A9E9D0200D574AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		927F4F871A9E9D0200D574AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		927F4F8A1A9E9D0200D574AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		927F4F8C1A9E9D0200D574AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		927F4F8F1A9E9D0200D574AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		927F4F951A9E9D0200D574AC /* SpecialEventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpecialEventSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927F4F9A1A9E9D0200D574AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927F4F9B1A9E9D0200D574AC /* SpecialEventSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialEventSchedulerTests.m; sourceTree = "<group>"; };
+		927F4FAB1A9E9F8100D574AC /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
+		927F4FAC1A9E9F8100D574AC /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewController.m; sourceTree = "<group>"; };
+		927F4FAE1A9E9F9F00D574AC /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		927F4FAF1A9E9F9F00D574AC /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,15 @@
 		927F4F7E1A9E9D0200D574AC /* SpecialEventScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				926207581A9EAF9200795085 /* Schedule.h */,
+				926207591A9EAF9200795085 /* Schedule.m */,
+				927F4FAB1A9E9F8100D574AC /* EventsTableViewController.h */,
+				927F4FAC1A9E9F8100D574AC /* EventsTableViewController.m */,
 				927F4F831A9E9D0200D574AC /* AppDelegate.h */,
 				927F4F841A9E9D0200D574AC /* AppDelegate.m */,
-				927F4F861A9E9D0200D574AC /* ViewController.h */,
-				927F4F871A9E9D0200D574AC /* ViewController.m */,
 				927F4F891A9E9D0200D574AC /* Main.storyboard */,
+				927F4FAE1A9E9F9F00D574AC /* NewViewController.h */,
+				927F4FAF1A9E9F9F00D574AC /* NewViewController.m */,
 				927F4F8C1A9E9D0200D574AC /* Images.xcassets */,
 				927F4F8E1A9E9D0200D574AC /* LaunchScreen.xib */,
 				927F4F7F1A9E9D0200D574AC /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927F4F881A9E9D0200D574AC /* ViewController.m in Sources */,
+				9262075A1A9EAF9200795085 /* Schedule.m in Sources */,
 				927F4F851A9E9D0200D574AC /* AppDelegate.m in Sources */,
+				927F4FAD1A9E9F8100D574AC /* EventsTableViewController.m in Sources */,
 				927F4F821A9E9D0200D574AC /* main.m in Sources */,
+				927F4FB01A9E9F9F00D574AC /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				927F4FA11A9E9D0200D574AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927F4FA21A9E9D0200D574AC /* Build configuration list for PBXNativeTarget "SpecialEventSchedulerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				927F4FA41A9E9D0200D574AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
